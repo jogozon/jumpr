@@ -7,13 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		611D85D82D08EF4E00C7CEE3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611D85D72D08EF4E00C7CEE3 /* MapView.swift */; };
+		611D85DA2D0919C300C7CEE3 /* CourtModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611D85D92D0919C300C7CEE3 /* CourtModel.swift */; };
+		611D85DD2D091AD000C7CEE3 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611D85DC2D091AD000C7CEE3 /* Extension.swift */; };
+		611D85DF2D091F6B00C7CEE3 /* CourtDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611D85DE2D091F6B00C7CEE3 /* CourtDetailsView.swift */; };
+		611D85E12D096BAC00C7CEE3 /* LocationDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611D85E02D096BAC00C7CEE3 /* LocationDataManager.swift */; };
+		611D85E32D097C6C00C7CEE3 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611D85E22D097C6C00C7CEE3 /* UserViewModel.swift */; };
+		611D85E52D098CEE00C7CEE3 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611D85E42D098CEE00C7CEE3 /* GameViewModel.swift */; };
 		61219F4B2D039B750023EEE3 /* GozonJosephFInalProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61219F4A2D039B750023EEE3 /* GozonJosephFInalProjectApp.swift */; };
-		61219F4D2D039B750023EEE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61219F4C2D039B750023EEE3 /* ContentView.swift */; };
+		61219F4D2D039B750023EEE3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61219F4C2D039B750023EEE3 /* MainView.swift */; };
 		61219F4F2D039B770023EEE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61219F4E2D039B770023EEE3 /* Assets.xcassets */; };
 		61219F522D039B770023EEE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61219F512D039B770023EEE3 /* Preview Assets.xcassets */; };
 		61219F5C2D039B770023EEE3 /* GozonJosephFInalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61219F5B2D039B770023EEE3 /* GozonJosephFInalProjectTests.swift */; };
 		61219F662D039B770023EEE3 /* GozonJosephFInalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61219F652D039B770023EEE3 /* GozonJosephFInalProjectUITests.swift */; };
 		61219F682D039B770023EEE3 /* GozonJosephFInalProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61219F672D039B770023EEE3 /* GozonJosephFInalProjectUITestsLaunchTests.swift */; };
+		61219F7B2D064B990023EEE3 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 61219F7A2D064B990023EEE3 /* FirebaseAuth */; };
+		61219F7D2D064B990023EEE3 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 61219F7C2D064B990023EEE3 /* FirebaseFirestore */; };
+		61219F7F2D064C370023EEE3 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 61219F7E2D064C370023EEE3 /* FirebaseCore */; };
+		61219F812D078B8C0023EEE3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61219F802D078B8C0023EEE3 /* LoginView.swift */; };
+		61219F832D07956C0023EEE3 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61219F822D07956C0023EEE3 /* RegisterView.swift */; };
+		61219F852D0795770023EEE3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61219F842D0795770023EEE3 /* ProfileView.swift */; };
+		61219F872D0795870023EEE3 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61219F862D0795870023EEE3 /* UserModel.swift */; };
+		61219F892D07959E0023EEE3 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61219F882D07959E0023EEE3 /* GameModel.swift */; };
+		61219F8D2D07D2A40023EEE3 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61219F8C2D07D2A40023EEE3 /* AuthViewModel.swift */; };
+		61219F8F2D07EEC40023EEE3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61219F8E2D07EEC40023EEE3 /* Constants.swift */; };
+		61219F912D083FBD0023EEE3 /* NavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61219F902D083FBD0023EEE3 /* NavBarView.swift */; };
+		61BE873D2D0A65CE00F149B9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61BE873C2D0A65CD00F149B9 /* GoogleService-Info.plist */; };
+		61BE87402D0A667500F149B9 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 61BE873F2D0A667500F149B9 /* GoogleSignIn */; };
+		61BE87422D0A667500F149B9 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 61BE87412D0A667500F149B9 /* GoogleSignInSwift */; };
+		61BE87472D0A820300F149B9 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BE87462D0A820300F149B9 /* CustomTextField.swift */; };
+		61F3D7A02D0A26F000D182BA /* AddGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F3D79F2D0A26F000D182BA /* AddGameView.swift */; };
+		61F3D7A22D0A45A400D182BA /* GameListview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F3D7A12D0A45A400D182BA /* GameListview.swift */; };
+		61F3D7A42D0A45BC00D182BA /* GameCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F3D7A32D0A45BC00D182BA /* GameCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +59,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		61219F472D039B750023EEE3 /* GozonJosephFInalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GozonJosephFInalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		611D85D72D08EF4E00C7CEE3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		611D85D92D0919C300C7CEE3 /* CourtModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourtModel.swift; sourceTree = "<group>"; };
+		611D85DC2D091AD000C7CEE3 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		611D85DE2D091F6B00C7CEE3 /* CourtDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourtDetailsView.swift; sourceTree = "<group>"; };
+		611D85E02D096BAC00C7CEE3 /* LocationDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDataManager.swift; sourceTree = "<group>"; };
+		611D85E22D097C6C00C7CEE3 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		611D85E42D098CEE00C7CEE3 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		61219F472D039B750023EEE3 /* GozonJosephFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GozonJosephFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61219F4A2D039B750023EEE3 /* GozonJosephFInalProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GozonJosephFInalProjectApp.swift; sourceTree = "<group>"; };
-		61219F4C2D039B750023EEE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		61219F4C2D039B750023EEE3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		61219F4E2D039B770023EEE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61219F512D039B770023EEE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		61219F572D039B770023EEE3 /* GozonJosephFInalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GozonJosephFInalProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61219F572D039B770023EEE3 /* GozonJosephFinalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GozonJosephFinalProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61219F5B2D039B770023EEE3 /* GozonJosephFInalProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GozonJosephFInalProjectTests.swift; sourceTree = "<group>"; };
-		61219F612D039B770023EEE3 /* GozonJosephFInalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GozonJosephFInalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61219F612D039B770023EEE3 /* GozonJosephFinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GozonJosephFinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61219F652D039B770023EEE3 /* GozonJosephFInalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GozonJosephFInalProjectUITests.swift; sourceTree = "<group>"; };
 		61219F672D039B770023EEE3 /* GozonJosephFInalProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GozonJosephFInalProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		61219F802D078B8C0023EEE3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		61219F822D07956C0023EEE3 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		61219F842D0795770023EEE3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		61219F862D0795870023EEE3 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		61219F882D07959E0023EEE3 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		61219F8C2D07D2A40023EEE3 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		61219F8E2D07EEC40023EEE3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		61219F902D083FBD0023EEE3 /* NavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarView.swift; sourceTree = "<group>"; };
+		61BE873C2D0A65CD00F149B9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		61BE87432D0A691500F149B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		61BE87462D0A820300F149B9 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		61F3D79F2D0A26F000D182BA /* AddGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGameView.swift; sourceTree = "<group>"; };
+		61F3D7A12D0A45A400D182BA /* GameListview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListview.swift; sourceTree = "<group>"; };
+		61F3D7A32D0A45BC00D182BA /* GameCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +97,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61BE87422D0A667500F149B9 /* GoogleSignInSwift in Frameworks */,
+				61219F7B2D064B990023EEE3 /* FirebaseAuth in Frameworks */,
+				61BE87402D0A667500F149B9 /* GoogleSignIn in Frameworks */,
+				61219F7F2D064C370023EEE3 /* FirebaseCore in Frameworks */,
+				61219F7D2D064B990023EEE3 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,10 +122,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		611D85DB2D091AC100C7CEE3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				611D85DC2D091AD000C7CEE3 /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		61219F3E2D039B750023EEE3 = {
 			isa = PBXGroup;
 			children = (
-				61219F492D039B750023EEE3 /* GozonJosephFInalProject */,
+				61219F492D039B750023EEE3 /* GozonJosephFinalProject */,
 				61219F5A2D039B770023EEE3 /* GozonJosephFInalProjectTests */,
 				61219F642D039B770023EEE3 /* GozonJosephFInalProjectUITests */,
 				61219F482D039B750023EEE3 /* Products */,
@@ -84,22 +143,28 @@
 		61219F482D039B750023EEE3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				61219F472D039B750023EEE3 /* GozonJosephFInalProject.app */,
-				61219F572D039B770023EEE3 /* GozonJosephFInalProjectTests.xctest */,
-				61219F612D039B770023EEE3 /* GozonJosephFInalProjectUITests.xctest */,
+				61219F472D039B750023EEE3 /* GozonJosephFinalProject.app */,
+				61219F572D039B770023EEE3 /* GozonJosephFinalProjectTests.xctest */,
+				61219F612D039B770023EEE3 /* GozonJosephFinalProjectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		61219F492D039B750023EEE3 /* GozonJosephFInalProject */ = {
+		61219F492D039B750023EEE3 /* GozonJosephFinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				61BE87432D0A691500F149B9 /* Info.plist */,
+				611D85DB2D091AC100C7CEE3 /* Extension */,
+				61BE873C2D0A65CD00F149B9 /* GoogleService-Info.plist */,
+				61219F762D039BA60023EEE3 /* View */,
+				61219F752D039B9C0023EEE3 /* ViewModel */,
+				61219F742D039B8C0023EEE3 /* Model */,
 				61219F4A2D039B750023EEE3 /* GozonJosephFInalProjectApp.swift */,
-				61219F4C2D039B750023EEE3 /* ContentView.swift */,
 				61219F4E2D039B770023EEE3 /* Assets.xcassets */,
 				61219F502D039B770023EEE3 /* Preview Content */,
+				61219F8E2D07EEC40023EEE3 /* Constants.swift */,
 			);
-			path = GozonJosephFInalProject;
+			path = GozonJosephFinalProject;
 			sourceTree = "<group>";
 		};
 		61219F502D039B770023EEE3 /* Preview Content */ = {
@@ -127,12 +192,51 @@
 			path = GozonJosephFInalProjectUITests;
 			sourceTree = "<group>";
 		};
+		61219F742D039B8C0023EEE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				61219F862D0795870023EEE3 /* UserModel.swift */,
+				61219F882D07959E0023EEE3 /* GameModel.swift */,
+				611D85D92D0919C300C7CEE3 /* CourtModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		61219F752D039B9C0023EEE3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				61219F8C2D07D2A40023EEE3 /* AuthViewModel.swift */,
+				611D85E02D096BAC00C7CEE3 /* LocationDataManager.swift */,
+				611D85E22D097C6C00C7CEE3 /* UserViewModel.swift */,
+				611D85E42D098CEE00C7CEE3 /* GameViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		61219F762D039BA60023EEE3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				61219F4C2D039B750023EEE3 /* MainView.swift */,
+				61219F802D078B8C0023EEE3 /* LoginView.swift */,
+				61219F822D07956C0023EEE3 /* RegisterView.swift */,
+				61219F842D0795770023EEE3 /* ProfileView.swift */,
+				61219F902D083FBD0023EEE3 /* NavBarView.swift */,
+				611D85D72D08EF4E00C7CEE3 /* MapView.swift */,
+				611D85DE2D091F6B00C7CEE3 /* CourtDetailsView.swift */,
+				61F3D79F2D0A26F000D182BA /* AddGameView.swift */,
+				61F3D7A12D0A45A400D182BA /* GameListview.swift */,
+				61F3D7A32D0A45BC00D182BA /* GameCellView.swift */,
+				61BE87462D0A820300F149B9 /* CustomTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		61219F462D039B750023EEE3 /* GozonJosephFInalProject */ = {
+		61219F462D039B750023EEE3 /* GozonJosephFinalProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61219F6B2D039B770023EEE3 /* Build configuration list for PBXNativeTarget "GozonJosephFInalProject" */;
+			buildConfigurationList = 61219F6B2D039B770023EEE3 /* Build configuration list for PBXNativeTarget "GozonJosephFinalProject" */;
 			buildPhases = (
 				61219F432D039B750023EEE3 /* Sources */,
 				61219F442D039B750023EEE3 /* Frameworks */,
@@ -142,14 +246,21 @@
 			);
 			dependencies = (
 			);
-			name = GozonJosephFInalProject;
+			name = GozonJosephFinalProject;
+			packageProductDependencies = (
+				61219F7A2D064B990023EEE3 /* FirebaseAuth */,
+				61219F7C2D064B990023EEE3 /* FirebaseFirestore */,
+				61219F7E2D064C370023EEE3 /* FirebaseCore */,
+				61BE873F2D0A667500F149B9 /* GoogleSignIn */,
+				61BE87412D0A667500F149B9 /* GoogleSignInSwift */,
+			);
 			productName = GozonJosephFInalProject;
-			productReference = 61219F472D039B750023EEE3 /* GozonJosephFInalProject.app */;
+			productReference = 61219F472D039B750023EEE3 /* GozonJosephFinalProject.app */;
 			productType = "com.apple.product-type.application";
 		};
-		61219F562D039B770023EEE3 /* GozonJosephFInalProjectTests */ = {
+		61219F562D039B770023EEE3 /* GozonJosephFinalProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61219F6E2D039B770023EEE3 /* Build configuration list for PBXNativeTarget "GozonJosephFInalProjectTests" */;
+			buildConfigurationList = 61219F6E2D039B770023EEE3 /* Build configuration list for PBXNativeTarget "GozonJosephFinalProjectTests" */;
 			buildPhases = (
 				61219F532D039B770023EEE3 /* Sources */,
 				61219F542D039B770023EEE3 /* Frameworks */,
@@ -160,14 +271,14 @@
 			dependencies = (
 				61219F592D039B770023EEE3 /* PBXTargetDependency */,
 			);
-			name = GozonJosephFInalProjectTests;
+			name = GozonJosephFinalProjectTests;
 			productName = GozonJosephFInalProjectTests;
-			productReference = 61219F572D039B770023EEE3 /* GozonJosephFInalProjectTests.xctest */;
+			productReference = 61219F572D039B770023EEE3 /* GozonJosephFinalProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		61219F602D039B770023EEE3 /* GozonJosephFInalProjectUITests */ = {
+		61219F602D039B770023EEE3 /* GozonJosephFinalProjectUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61219F712D039B770023EEE3 /* Build configuration list for PBXNativeTarget "GozonJosephFInalProjectUITests" */;
+			buildConfigurationList = 61219F712D039B770023EEE3 /* Build configuration list for PBXNativeTarget "GozonJosephFinalProjectUITests" */;
 			buildPhases = (
 				61219F5D2D039B770023EEE3 /* Sources */,
 				61219F5E2D039B770023EEE3 /* Frameworks */,
@@ -178,9 +289,9 @@
 			dependencies = (
 				61219F632D039B770023EEE3 /* PBXTargetDependency */,
 			);
-			name = GozonJosephFInalProjectUITests;
+			name = GozonJosephFinalProjectUITests;
 			productName = GozonJosephFInalProjectUITests;
-			productReference = 61219F612D039B770023EEE3 /* GozonJosephFInalProjectUITests.xctest */;
+			productReference = 61219F612D039B770023EEE3 /* GozonJosephFinalProjectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +317,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 61219F422D039B750023EEE3 /* Build configuration list for PBXProject "GozonJosephFInalProject" */;
+			buildConfigurationList = 61219F422D039B750023EEE3 /* Build configuration list for PBXProject "GozonJosephFinalProject" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -215,13 +326,17 @@
 				Base,
 			);
 			mainGroup = 61219F3E2D039B750023EEE3;
+			packageReferences = (
+				61219F792D064B990023EEE3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				61BE873E2D0A667500F149B9 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = 61219F482D039B750023EEE3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				61219F462D039B750023EEE3 /* GozonJosephFInalProject */,
-				61219F562D039B770023EEE3 /* GozonJosephFInalProjectTests */,
-				61219F602D039B770023EEE3 /* GozonJosephFInalProjectUITests */,
+				61219F462D039B750023EEE3 /* GozonJosephFinalProject */,
+				61219F562D039B770023EEE3 /* GozonJosephFinalProjectTests */,
+				61219F602D039B770023EEE3 /* GozonJosephFinalProjectUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,6 +348,7 @@
 			files = (
 				61219F522D039B770023EEE3 /* Preview Assets.xcassets in Resources */,
 				61219F4F2D039B770023EEE3 /* Assets.xcassets in Resources */,
+				61BE873D2D0A65CE00F149B9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +373,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61219F4D2D039B750023EEE3 /* ContentView.swift in Sources */,
+				61219F912D083FBD0023EEE3 /* NavBarView.swift in Sources */,
+				61219F812D078B8C0023EEE3 /* LoginView.swift in Sources */,
+				61219F832D07956C0023EEE3 /* RegisterView.swift in Sources */,
+				611D85D82D08EF4E00C7CEE3 /* MapView.swift in Sources */,
+				611D85E12D096BAC00C7CEE3 /* LocationDataManager.swift in Sources */,
+				61219F852D0795770023EEE3 /* ProfileView.swift in Sources */,
+				61F3D7A42D0A45BC00D182BA /* GameCellView.swift in Sources */,
+				61F3D7A02D0A26F000D182BA /* AddGameView.swift in Sources */,
+				61F3D7A22D0A45A400D182BA /* GameListview.swift in Sources */,
+				611D85DA2D0919C300C7CEE3 /* CourtModel.swift in Sources */,
+				611D85E52D098CEE00C7CEE3 /* GameViewModel.swift in Sources */,
+				61219F4D2D039B750023EEE3 /* MainView.swift in Sources */,
+				61BE87472D0A820300F149B9 /* CustomTextField.swift in Sources */,
+				61219F872D0795870023EEE3 /* UserModel.swift in Sources */,
+				611D85E32D097C6C00C7CEE3 /* UserViewModel.swift in Sources */,
+				61219F892D07959E0023EEE3 /* GameModel.swift in Sources */,
+				611D85DD2D091AD000C7CEE3 /* Extension.swift in Sources */,
 				61219F4B2D039B750023EEE3 /* GozonJosephFInalProjectApp.swift in Sources */,
+				61219F8D2D07D2A40023EEE3 /* AuthViewModel.swift in Sources */,
+				61219F8F2D07EEC40023EEE3 /* Constants.swift in Sources */,
+				611D85DF2D091F6B00C7CEE3 /* CourtDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +419,12 @@
 /* Begin PBXTargetDependency section */
 		61219F592D039B770023EEE3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 61219F462D039B750023EEE3 /* GozonJosephFInalProject */;
+			target = 61219F462D039B750023EEE3 /* GozonJosephFinalProject */;
 			targetProxy = 61219F582D039B770023EEE3 /* PBXContainerItemProxy */;
 		};
 		61219F632D039B770023EEE3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 61219F462D039B750023EEE3 /* GozonJosephFInalProject */;
+			target = 61219F462D039B750023EEE3 /* GozonJosephFinalProject */;
 			targetProxy = 61219F622D039B770023EEE3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -424,6 +559,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GozonJosephFInalProject/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GozonJosephFInalProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Jumpr;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App needs to access your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -434,7 +572,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.GozonJosephFInalProject;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.GozonJosephFinalProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -452,6 +590,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GozonJosephFInalProject/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GozonJosephFInalProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Jumpr;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App needs to access your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -462,7 +603,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.GozonJosephFInalProject;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.GozonJosephFinalProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -485,7 +626,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GozonJosephFInalProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GozonJosephFInalProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GozonJosephFinalProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GozonJosephFinalProject";
 			};
 			name = Debug;
 		};
@@ -504,7 +645,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GozonJosephFInalProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GozonJosephFInalProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GozonJosephFinalProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GozonJosephFinalProject";
 			};
 			name = Release;
 		};
@@ -545,7 +686,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		61219F422D039B750023EEE3 /* Build configuration list for PBXProject "GozonJosephFInalProject" */ = {
+		61219F422D039B750023EEE3 /* Build configuration list for PBXProject "GozonJosephFinalProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				61219F692D039B770023EEE3 /* Debug */,
@@ -554,7 +695,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		61219F6B2D039B770023EEE3 /* Build configuration list for PBXNativeTarget "GozonJosephFInalProject" */ = {
+		61219F6B2D039B770023EEE3 /* Build configuration list for PBXNativeTarget "GozonJosephFinalProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				61219F6C2D039B770023EEE3 /* Debug */,
@@ -563,7 +704,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		61219F6E2D039B770023EEE3 /* Build configuration list for PBXNativeTarget "GozonJosephFInalProjectTests" */ = {
+		61219F6E2D039B770023EEE3 /* Build configuration list for PBXNativeTarget "GozonJosephFinalProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				61219F6F2D039B770023EEE3 /* Debug */,
@@ -572,7 +713,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		61219F712D039B770023EEE3 /* Build configuration list for PBXNativeTarget "GozonJosephFInalProjectUITests" */ = {
+		61219F712D039B770023EEE3 /* Build configuration list for PBXNativeTarget "GozonJosephFinalProjectUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				61219F722D039B770023EEE3 /* Debug */,
@@ -582,6 +723,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		61219F792D064B990023EEE3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.6.0;
+			};
+		};
+		61BE873E2D0A667500F149B9 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		61219F7A2D064B990023EEE3 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61219F792D064B990023EEE3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		61219F7C2D064B990023EEE3 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61219F792D064B990023EEE3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		61219F7E2D064C370023EEE3 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61219F792D064B990023EEE3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		61BE873F2D0A667500F149B9 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61BE873E2D0A667500F149B9 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		61BE87412D0A667500F149B9 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61BE873E2D0A667500F149B9 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 61219F3F2D039B750023EEE3 /* Project object */;
 }
